@@ -1,0 +1,83 @@
+
+.login.container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    padding: 50px;
+    background-color: rgb(247, 247, 247);
+}
+
+.login-card h3{
+    margin-bottom: 30px;
+}
+
+.login-card label{
+    position: relative;
+    right: 52%;
+    color: rgb(170, 170, 170);
+}
+
+.login-card label.setpassword{
+    position: relative;
+    right: 40%;
+    color: rgb(170, 170, 170);
+}
+
+.login-card label.confirmpassword{
+    position: relative;
+    right: 34%;
+    color: rgb(170, 170, 170);
+}
+
+.login-card input{
+    width: 120%;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 5px;
+    height: 35px;
+    margin-bottom: 30px;
+}
+
+.login-card input:focus{
+    /* background-color: #444bab; */
+    padding: 12px;
+    outline: none;
+}
+
+
+.login-card button{
+    background-color: #444bab;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 120%;
+    border: 2px solid #444bab;
+    color: white;
+    margin-bottom: 30px;
+}
+.login-card p{
+    margin-bottom: 30px;
+}
+.login-card button.setPass:hover{
+    font-size: 18px;
+}
+
+.login-card button.google{
+    width: 120%;
+    color: #444bab;
+    background-color: transparent;
+    margin-bottom: 60px;
+    cursor: not-allowed;
+}
+
+.login-card p span{
+    color: #444bab;
+}

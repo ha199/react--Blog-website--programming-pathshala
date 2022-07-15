@@ -1,0 +1,124 @@
+
+
+.featured-blog-head{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+}
+.blog-details{
+    position: relative;
+    box-shadow: 0 1px 10px #e5e6e7;
+    
+}
+
+.blog-details img{
+    width: 100%;
+    clip-path: polygon(100% 0, 100% 100%, 82% 61%, 0 61%, 0 0);
+}
+
+.blog-details-inside{
+    position: absolute;
+    top: 65%;
+    margin-left: 100px;
+    color: rgb(155, 155, 155);
+}
+.blog-details-inside a{
+    text-decoration: none;
+    color: rgb(11, 11, 71);
+
+}
+
+.blog-details-inside a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.blog-details-inside h3{
+    color: rgb(11, 11, 71);
+}
+.blog-details-inside p.author{
+    font-size: 18px;
+    color:#416CB3;
+    font-weight: 600;
+}
+
+.blog-details-inside p.categories{
+    position: relative;
+    background-color: rgb(18, 132, 177);
+    color: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+    width: fit-content;
+}
+
+.horizontal-blogs{
+    padding: 60px 100px;
+    min-height: 550px;
+    box-shadow: 0 1px 10px #e5e6e7;
+
+
+}
+.horizontal-blogs .blog-details img{
+    clip-path: none;
+}
+
+.horizontal-blogs .blog-details-inside{
+    padding-top: 30px;
+    position:absolute;
+    top: 100%;
+    margin-left: 0;
+    color: rgb(155, 155, 155);
+}
+
+.horizontal-blogs .blog-details-inside .categories{
+    position: absolute;
+    top: -10%;
+    right: 5%;
+}
+
+.verticle-blog-cards{
+    height: 650px;
+}
+.verticle-blogs{
+    padding: 60px 100px;
+    min-height: 1000px;
+}
+
+.verticle-blogs .blog-details img{
+    clip-path: none;
+}
+
+.verticle-blogs .blog-details-inside{
+    padding-top: 30px;
+    position:absolute;
+    top: 100%;
+    margin-left: 0;
+    color: rgb(155, 155, 155);
+}
+.verticle-blog-cards .blog-details-inside .categories{
+    position: absolute;
+    top: -10%;
+    right: 5%;
+}
+
+
+.recommended-categories{
+    display: flex;
+    flex-direction: column;
+}
+
+.recommended-categories h4{
+    margin-bottom: 30px;
+}
+
+.recommended-categories a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.recommended-categories a:hover{
+    text-decoration: underline;
+}

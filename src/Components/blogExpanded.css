@@ -1,0 +1,88 @@
+
+.blog-expanded .blog-details{
+    position: relative;
+    box-shadow: 0 1px 10px #e5e6e7;
+    
+}
+
+.blog-expanded .blog-details img{
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 78% 100%, 78% 71%, 0 71%);
+    box-shadow: 0 1px 10px #e5e6e7;
+    padding-bottom: 60px;
+
+}
+
+.blog-expanded .blog-details-inside{
+    position: relative;
+    margin-left: 100px;
+    /* position: absolute;
+    top: 0%;
+    margin-left: 100px;
+    color: rgb(155, 155, 155); */
+}
+.blog-expanded .blog-details-inside h3{
+    position: absolute;
+    top: -30%;
+    color: rgb(72, 72, 72);
+}
+
+.blog-expanded .blog-details-inside p.date{
+    position: absolute;
+    top: -20%;
+    color: rgb(72, 72, 72);
+}
+
+.blog-expanded .blog-details-inside p.categories{
+    position: absolute;
+    top: -38%;
+    right: 26%;
+}
+
+.blog-expanded .blog-details-inside p.author{
+    position: absolute;
+    top: -10%;
+    right: 50%;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.blog-expanded .blog-details-inside p.desc{
+    padding: 60px 150px 100px 50px;
+}
+
+.blog-expanded .recommended-categories{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-expanded .recommended-categories a{
+    position: relative;
+    background-color: rgb(18, 132, 177);
+    color: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+    width: fit-content;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.blog-expanded .recommended-categories a:hover{
+    font-size: 16px;
+}
+
+.like {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.like .horizontal-blogs{
+    box-shadow: none;
+
+}

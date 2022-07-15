@@ -1,0 +1,30 @@
+.category-blog-head{
+    padding: 50px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-blog-head button{
+    background-color: #444bab;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 140px;
+    height: 50px;
+    border: 2px solid #444bab;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.category-blog-head button:hover{
+    font-size: 22px;
+}
+.category-blog-head .results{
+    font-size: large;
+    font-weight: 600;
+    color: #444bab;
+}
+
+.search-blogs .col-4{
+    height: 500px;
+}

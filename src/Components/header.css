@@ -1,0 +1,79 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 1px 10px #e5e6e7;
+    margin: auto;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.PPLogo {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.PPNameHeader {
+    color: #444bab;
+    margin: 0 0 0 5%;
+    font-size: 1.03vw;
+    font-family: "Gilroy-Bold";
+}
+
+.PPNameHeader {
+    padding-top: 3px;
+    margin-left: 14px;
+}
+.PPNameHeader {
+    font-size: 1.375vw;
+    line-height: 1.56vw;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.nav-menu a{
+    padding-left: 20px;
+    font-size: 1.03vw;
+    text-decoration: none;
+    color: black;
+}
+.nav-menu a:hover{
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button {
+    background-color: transparent;
+    border-radius: 1vw;
+    font-size: 1.1vw;
+
+    margin: 10px;
+    width: 130px;
+    border: 2px solid #444bab;
+    color: #444bab;
+}
+
+.buttons button:hover{
+    cursor: pointer;
+    font-size: 1.2vw;
+}
+
+.buttons button.trial{
+    color: white;
+    background-color: #444bab;
+}
+/* .buttons  */
